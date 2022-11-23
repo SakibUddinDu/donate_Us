@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  /* overflow-x: hidden; */
+}
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  /* overflow-x: hidden; */
+}
+h2 {
+  font-size: 5.4rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
+p {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+section {
+  margin-top: 8rem;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.card {
+  padding: 2rem;
+}
+.card h3 {
+  margin-top: 2rem;
+}
+/* =====================
+  banner section start
+======================*/
+.banner {
+  height: 95vh;
+  background-color: #555;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background: linear-gradient(
+      rgba(18, 18, 18, 0.700000011920929),
+      rgba(18, 18, 18, 0.6583)
+    ),
+    url("../images/donation10.jpg");
+}
+
+.banner h1 {
+  color: #ffffff;
+  font-size: 6.5rem;
+}
+.banner p {
+  margin-top: 2rem;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.banner_description {
+  padding-top: 17rem;
+  width: 82.6rem;
+  height: 15.8rem;
+  margin: 0 auto;
+}
+.btn {
+  background-color: #ff5959;
+  height: 5.6rem;
+  width: 16rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+.header_buttons {
+  margin-top: 2rem;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.btn_donate {
+  background-color: #ff5959;
+  color: #ffffff;
+}
+
+.btn_video {
+  background-color: none;
+  color: #000000;
+  border: none;
+}
+.btn_video a {
+  text-decoration: none;
+}
+.btn_video img {
+  width: 10%;
+}
+
+/* =====================
+  Donate Today Section
+====================*/
+.donate_today {
+  /* margin-top: 8rem; */
+  text-align: center;
+}
+
+.donate_amounts {
+  display: flex;
+  justify-content: center;
+}
+.donate_amount {
+  padding: 2rem;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 5rem;
+  /* border: 1px solid black; */
+}
+.input_item {
+  display: inline-block;
+  margin-bottom: 2rem;
+  width: 50rem;
+  padding: 1rem;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: #eee;
+}
+.btn_donate_display {
+  margin-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+/* =====================
+Our Donate plan Section
+=======================*/
+.our_donate_plan {
+  text-align: center;
+}
+.donate_plans {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.donate_plans h3 {
+  margin-top: 2rem;
+}
+.donate_plans p {
+  text-align: left;
+}
+
+/* ==============================
+Lives depend on donation Section
+=================================*/
+.lives_depend_on_donation {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  padding: 2rem;
+}
+.half-width img {
+  width: 100%;
+}
+.half-width p {
+  line-height: 3.5rem;
+}
+.half-width button {
+  margin-top: 2rem;
+}
+
+/* =====================
+  Supporting System Section
+=======================*/
+.supporting_system {
+  text-align: center;
+}
+
+/* =====================
+    Get Updates Section
+=======================*/
+.get_updates {
+  text-align: center;
+}
+.get_updates p {
+  margin-bottom: 2rem;
+}
+.get_updates_box {
+  height: 20rem;
+  width: 80rem;
+  background-color: #fff4d6;
+  margin: 0 auto;
+}
+
+form > input {
+  background: rgba(217, 217, 217, 1);
+  height: 4.8rem;
+  width: 27.5rem;
+  border: none;
+  padding: 1rem;
+}
+.submit_btn {
+  background-color: #ff5959;
+  height: 4.8rem;
+  width: 15.7rem;
+  border: none;
+  /* border-radius: 0.5rem; */
+}
+
+/* =====================
+      Footer Section
+=======================*/
+footer {
+  width: 100%;
+  height: 17.7rem;
+  background-color: #0b0d17;
+  text-align: center;
+}
+.footer_text {
+  padding-top: 5rem;
+}
+.footer_text h3 {
+  color: rgba(255, 89, 89, 1);
+  font-family: lobster;
+}
